@@ -31,6 +31,17 @@ body {
 
 }
 
+@media (max-width: 767px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+
+    }
+}
 
 .navbar {
     position: sticky;
